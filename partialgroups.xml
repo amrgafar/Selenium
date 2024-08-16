@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Check Broken TC">
+    <test name="Check Broken TC on release">
+        <groups>
+            <run>
+                <include name="broken"> </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Session1.Assertions"> </class>
+        </classes>
+    </test>
+</suite>
